@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* font family */
+  --font-monospace: 'IBM Plex Mono', 'JetBrains Mono', monospace;
+  --font-sans-serief: 'Inter', 'Poopins', sans-serif;
+  /* border */
+  --border-radius-sm: 4px;
+  /* gaps */
+  --gap-sm: 8px;
+  --gap-md: 24px;
+  /* colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #ccc;
+  --color-primary: #ff0f80;
+}
+
+body {
+  font-family: var(--font-monospace);
+  width: 100%;
+  height: 100vh;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.main__title {
+  font-family: var(--font-sans-serief);
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: var(--gap-md);
+}
+
+.form {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--gap-md);
+  margin-bottom: var(--gap-md);
+}
+
+.form__input {
+  flex: 2;
+  height: 100%;
+  width: 100%;
+  padding: 12px 4px 12px 8px;
+  font-size: 1rem;
+  border-radius: var(--border-radius-sm);
+  border: 1px solid var(--color-gray);
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.253);
+}
+
+.form__input::placeholder {
+  font-family: inherit;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.form__input:focus {
+  box-shadow: 0px 4px 40px rgba(255, 255, 255, 0.342);
+}
+
+.form__button {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  padding: 12px 4px;
+  border: 1px solid var(--color-gray);
+  border-radius: var(--border-radius-sm);
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: inherit;
+  background-color: var(--color-primary);
+  transition: opacity 300 ease;
+}
+
+.form__button:hover {
+  opacity: 0.8;
+}
+
+.list {
+  width: 800px;
+  list-style: none;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: var(--gap-md);
+  margin-bottom: var(--gap-md);
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ffffff25;
+}
+
+.list__title {
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.list__button {
+  display: inline-block;
+  padding: 4px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: border 300 ease;
+}
+
+.list__button:hover {
+  border: 2px solid var(--color-primary);
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Uma aplicação feita com html, css e javascript puros para praticar inserção e criação de elementos html pelo javascript"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Lista De Jogos</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="main__title">Lista de jogos 👾</h1>
+
+      <form class="form" id="form">
+        <input
+          id="input"
+          class="form__input"
+          type="text"
+          placeholder="Digite o nome de algum jogo..."
+          autofocus
+        />
+        <button id="button" type="submit" class="form__button">
+          Enviar &#8594;
+        </button>
+      </form>
+
+      <ul class="list" id="list"></ul>
+    </main>
+    <script src="./src/script.js"></script>
+  </body>
+</html>
