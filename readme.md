@@ -40,13 +40,15 @@ Este repositório serve como um portfólio de prática, demonstrando a aplicaç�
 
 ## Como usar
 
-```bash
+```shell
 # Clone este repositório
 git clone https://github.com/paulopbi/web-pure
 
- # Acesse o diretório do projeto
- cd web-pure
+# Acesse o diretório do projeto
+cd web-pure
 ```
+
+Após isso basta abrir o arquivo `index.html` do projeto desejado em seu navegador.
 
 ## Licença
 
