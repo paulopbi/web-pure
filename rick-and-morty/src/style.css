@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-primary: 'Sour Gummy', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+  --color-white: #fff;
+  --color-title: #cdcdcd;
+  --color-description: #969594;
+  --color-primary: #ff8e00;
+  --color-secondary: #2b2018;
+  --color-background: #1b1816;
+}
+
+body {
+  font-family: var(--font-secondary);
+  color: var(--color-title);
+  background-color: var(--color-background);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+}
+
+p {
+  font-family: inherit;
+  color: var(--color-description);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+  color: var(--color-title);
+}
+
+.header {
+  max-width: 1900px;
+  margin: 24px auto;
+  margin-block: 32px;
+}
+
+.header__title,
+.header__text {
+  text-align: center;
+}
+
+.header__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  place-content: center;
+  gap: 24px 32px;
+}
+
+.card {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 320px;
+}
+
+.card__image-container {
+  border: 3px solid var(--color-white);
+  border-radius: 100%;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.card__image {
+  object-fit: cover;
+}
+
+.card__title {
+  width: 300px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 8px;
+}
+
+.card__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card__status,
+.card__gender,
+.card__species {
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.controllers {
+  margin-block: 64px;
+}
+
+.controllers__button {
+  letter-spacing: 1px;
+  font-weight: bold;
+  min-width: 100px;
+  padding: 14px 32px;
+  display: block;
+  margin-inline: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  transition: all 0.5s ease;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+}
+
+.controllers__button:hover {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+}
