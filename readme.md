@@ -25,6 +25,11 @@ Este repositório serve como um portfólio de prática, demonstrando a aplicaç�
   **Funcionalidades principais**: Scroll infinito, pesquisa dinâmica, integração com API, spinner de carregamento.  
   **Tecnologias**: HTML5, CSS3, JavaScript (ES6+), API Fetch.
 
+- **[Rick and Morty](./rick-and-morty/)**  
+   Uma aplicação que consome a API pública do _Rick and Morty_ e exibe a imagem, nome, espécie e status dos personagens.  
+   **Funcionalidades principais**: Consumo de API, exibição dinâmica de dados, botão de carregar mais personagens.  
+   **Tecnologias**: HTML5, CSS3, JavaScript (ES6+), API Fetch.
+
 ## Como usar
 
 ```bash
@@ -33,8 +38,6 @@ git clone https://github.com/paulopbi/web-pure
 
  # Acesse o diretório do projeto
  cd web-pure
-
- # Abra o arquivo HTML de qualquer projeto no seu navegador
 ```
 
 ## Tecnologias Utilizadas
