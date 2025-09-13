@@ -32,8 +32,10 @@ Este repositório serve como um portfólio de prática, demonstrando a aplicaç�
   **Tecnologias**: HTML5, CSS3, JavaScript (ES6+), API Fetch.
 
 - **[Rick and Morty](./rick-and-morty/)**  
-   Uma aplicação que consome a API pública do _Rick and Morty_ e exibe a imagem, nome, espécie e status dos personagens.
+   Uma aplicação que consome a [API](https://rickandmortyapi.com/documentation) pública do _Rick and Morty_ e renderiza imagem, nome, espécie e status dos personagens, podendo carregar mais clicando no botão.
+
   **Funcionalidades**: Consumo de API, exibição dinâmica de dados, botão de carregar mais personagens.
+
   **Tecnologias**: HTML5, CSS3, JavaScript (ES6+), API Fetch.
 
 ## Como usar
