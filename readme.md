@@ -38,6 +38,13 @@ Este repositório serve como um portfólio de prática, demonstrando a aplicaç�
 
   **Tecnologias**: HTML5, CSS3, JavaScript (ES6+), API Fetch.
 
+- **[Github Finder](./github-finder/)**
+  Uma aplicação que consome a [API](https://docs.github.com/en/rest) pública do _GitHub_ para buscar e exibir informações de usuários do GitHub, incluindo nome, avatar, repositórios e seguidores.
+
+  **Funcionalidades**: Busca de usuários, exibição de perfil, listagem de repositórios e seguidores.
+
+  **Tecnologias**: HTML5, CSS3, JavaScript (ES6+), API Fetch.
+
 ## Como usar
 
 ```shell
