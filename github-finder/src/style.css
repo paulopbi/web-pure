@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-white: #fff;
+  --color-accent: #2da44e;
+  --color-background: #f9f9f9;
+  --color-gray-100: #333;
+  --color-gray-200: #24292e;
+  --color-gray-300: #555;
+  --color-border-100: #d0d7de;
+  --color-link: #0969da;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: var(--color-background);
+  color: var(--color-gray-100);
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: var(--color-gray-200);
+}
+
+p,
+span {
+  font-family: inherit;
+}
+
+/* search */
+
+.form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.form__input {
+  flex: 1;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--color-border-100);
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.form__button {
+  font-weight: bold;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  background: var(--color-accent);
+  color: var(--color-white);
+}
+
+.form__button:hover {
+  opacity: 0.8;
+}
+
+/* card */
+
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  gap: 24px;
+  border: 1px solid var(--color-border-100);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  background: var(--color-white);
+}
+
+/* traffic light detail */
+
+.traffic-light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 40px;
+}
+
+.traffic-light__circle--red {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.traffic-light__circle--yellow {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: yellow;
+}
+
+.traffic-light__circle--green {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: green;
+}
+
+/* card content */
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid var(--color-border-100);
+  object-fit: cover;
+}
+
+.card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* card content 'heading' */
+
+.card-content__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 4px;
+}
+
+.card-content__heading h2 {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: var(--color-gray-200);
+}
+
+.card-content__heading a {
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+.card-content__heading a:hover {
+  text-decoration: underline;
+}
+
+/* card content 'body' */
+
+.card-content__body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 4px;
+}
+
+.card-content__body p {
+  font-weight: bold;
+  color: var(--color-gray-300);
+}
+
+.card-content__body span {
+  font-weight: normal;
+  color: var(--color-gray-200);
+}
+
+/* card content 'footer' */
+
+.card-content__footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem 1rem;
+}
+
+.card-content__footer p {
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: var(--color-gray-300);
+}
+
+.card-content__footer span {
+  font-weight: normal;
+  color: var(--color-gray-200);
+}
