@@ -26,7 +26,7 @@ Durante o desenvolvimento deste projeto, aprimorei os seguintes conceitos:
 - **Separação de responsabilidades:**
   - Uso de funções pequenas e específicas (`resetInput`, `clearDom`, `showEmptyListMessage`, `render`, etc.) para manter o código limpo e organizado.
 - **Boas práticas no uso de eventos:**
-  - Evitar código inline e centralizar a lógica em funções reutilizáveis.
+  - Utilização do evento `submit` no `form` permitindo assim que os dados sejam submetidos tanto apertando a tecla `enter` ou clicando no botão de **adicionar**.
 
 ## Demonstração
 
