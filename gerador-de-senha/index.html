@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Gerador de Senhas</h1>
+
+      <main class="password">
+        <span class="password__text" data-password-text>xyz.com</span>
+        <button class="password__copy" data-copy-button>
+          <img src="assets/copy.svg" alt="Copy icon" />
+        </button>
+      </main>
+
+      <section class="controllers">
+        <!-- size -->
+        <div class="controllers__size">
+          <input type="number" name="size" id="size" data-size-input />
+          <label for="size">Quantidade de caractéres</label>
+        </div>
+
+        <!-- lowercase -->
+        <div>
+          <input
+            type="checkbox"
+            name="lowercase"
+            id="lowercase"
+            data-lowercase-checkbox
+          />
+          <label for="lowercase">Incluir letras minúsculas</label>
+        </div>
+
+        <!-- uppercase -->
+        <div>
+          <input
+            type="checkbox"
+            name="uppercase"
+            id="uppercase"
+            data-uppercase-checkbox
+          />
+          <label for="uppercase">Incluir letras maiúsculas</label>
+        </div>
+
+        <!-- number -->
+        <div>
+          <input
+            type="checkbox"
+            name="number"
+            id="number"
+            data-number-checkbox
+          />
+          <label for="number">Incluir números</label>
+        </div>
+
+        <!-- symbols -->
+        <div>
+          <input
+            type="checkbox"
+            name="symbols"
+            id="symbols"
+            data-symbols-checkbox
+          />
+          <label for="symbols">Incluir simbolos especiais</label>
+        </div>
+      </section>
+
+      <div class="generate">
+        <button class="generate__button" data-generate-button>
+          Gerar Senha
+          <img src="assets/key.svg" alt="Key icon" width="20" height="20" />
+        </button>
+      </div>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
