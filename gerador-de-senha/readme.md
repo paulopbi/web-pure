@@ -21,6 +21,6 @@ Um **Gerador de Senhas** altamente customizado podendo ter várias variações n
 
 ## Demonstração
 
-<p align='center'>
+<p align="center">
   <img src="./assets/cover.png" alt="Demonstração do projeto">
 </p>

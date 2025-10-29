@@ -28,10 +28,6 @@ Uma aplicação web dinâmica que implementa um blog com **scroll infinito** e f
 
 ## Demonstração
 
-<p align='center'>
-  <img src="./assets/demo.png" alt="Demonstração do Controle de Despesas">
+<p align="center">
+  <img src="./assets/demo.png" alt="Demonstração do Projeto" />
 </p>
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [`LICENSE`](LICENSE) para mais detalhes.

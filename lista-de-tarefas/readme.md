@@ -30,6 +30,6 @@ Durante o desenvolvimento deste projeto, aprimorei os seguintes conceitos:
 
 ## Demonstração
 
-<p align='center'>
-  <img src="./assets/demo.png" alt="Demonstração do projeto">
+<p align="center">
+  <img src="./assets/demo.png" alt="Demonstração do Projeto" />
 </p>

@@ -16,10 +16,6 @@ Uma aplicação que consome a [API do Rick and Morty](https://rickandmortyapi.co
 
 ## Demonstração
 
-<p align='center'>
-  <img src="./assets/demo.png" alt="Demonstração do projeto rick and morty">
+<p align="center">
+  <img src="./assets/demo.png" alt="Demonstração do Projeto" />
 </p>
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [`LICENSE`](LICENSE) para mais detalhes.
