@@ -16,6 +16,9 @@ A proposta do **Web Pure** é mostrar o poder e a versatilidade das tecnologias 
 - **[Controle de Despesas](./controle-de-despesas/)**  
   Um gerenciador simples de despesas pessoais, permitindo adicionar e remover gastos com persistência via `localStorage`.
 
+- **[Gerador de Senha](./gerador-de-senha/)**  
+  Um gerador de senhas que cria senhas fortes e complexas para você utilizar em qualquer cadastro!
+
 - **[Scroll Infinito](./scroll-infinito/)**  
   Um blog com carregamento automático de posts ao rolar a página, utilizando integração com API e pesquisa dinâmica.
 
