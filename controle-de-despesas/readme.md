@@ -18,8 +18,8 @@ Uma aplicação web de controle de despesas desenvolvido com **HTML**, **CSS** e
 
 ## Demonstração
 
-<p align='center'>
-  <img src="./assets/demo.png" alt="Demonstração do Controle de Despesas">
+<p align="center">
+  <img src="./assets/demo.png" alt="Demonstração do Projeto" />
 </p>
 
 ## Licença
